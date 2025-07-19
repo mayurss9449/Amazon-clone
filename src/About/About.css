@@ -1,0 +1,39 @@
+
+.about{
+    /* width: 10vh; */
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.about-left{
+    margin-left: 15px;
+    
+}
+.about-all{
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+.about-center {
+    
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+    
+}
+
+.nav{
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+    padding-left: 6px;
+    padding-right:9px;
+    
+}
+.about-right{
+    padding-left: 27px;
+}

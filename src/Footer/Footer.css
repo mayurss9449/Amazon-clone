@@ -1,0 +1,123 @@
+.footer-back-totop{
+    text-decoration: none;
+}
+.navfooter-top{
+    width: 100%;
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navfooter-top-button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ---------footer top---------- */
+.footer-top{
+    width: 100%;
+    height: 250px;
+    background-color: #232F3E;
+    border-bottom: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-top-one{
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+   justify-content: space-evenly;
+}
+.footer-top-oneHead{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+.footer-top-oneHeadfirst{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-toparr{
+    text-decoration: none;
+    color: rgb(184, 179, 179);
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer-top-onetext-us{
+    list-style: none;
+}
+
+/* ----------footer center  ------------*/
+
+.footer-center{
+    width: 100%;
+    height: 170px;
+    background-color:#232F3E ;
+}
+
+.footer-center-top{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-center-image{
+    width: 76px;
+    height: 38px;
+}
+
+/* -------------footer center bottom--------- */
+
+.footer-center-bottom{
+    display: flex;
+    margin: auto;
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 70px;
+}
+.footer-center-bottom-header{
+    
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer-center-bottom-head{
+    display: inline;
+    list-style: none;
+    white-space: normal;
+    line-height: 18px;
+ 
+}
+
+.footer-centerarr{
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 13px;
+    
+}
+
+
+/* ----------footer-bottom------------- */
+
+.footer-bottom{
+    width: 100%;
+    height: 80px;
+    background-color: #131A22;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

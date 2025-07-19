@@ -1,0 +1,117 @@
+.mobiles{
+    background-color: rgb(234,237,237);
+}
+
+.mobiles-container{
+    /* margin: 15px; */
+    margin: 15px auto;
+    height: 380px;
+    width: 94%;
+    border: 1px solid rgb(230, 226, 226);
+    background-color: white;
+}
+
+.mobiles-topBrands{
+    margin: 10px;
+    
+}
+
+.mobiles-topheadlines{
+    margin-left: 35px;
+
+}
+
+
+/* mobiles brand logo */
+
+.mobiles-topBrandslist{
+    display: flex;
+    flex-direction: row;
+}
+.mobiles-topBrandslogo{
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    height: 290px;
+    width: 95%;
+   
+}
+.mobiles-logoarr{
+    text-decoration: none;
+    
+}
+
+.mobiles-topBrandslogoimages{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.mobies-logo-images{
+    height: 200px ;
+    width: 200px;
+}
+.logo-bottomheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px;  
+
+}
+
+.mobies-logo{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+
+/* ---------------images-----------  */
+
+.mobiles-imageOne{
+    height: 310px;
+    width: 94%;
+    display:  flex;
+    margin: 20px auto;
+}
+
+
+/* ----------Mobiles random---------- */
+.mobiles-random-headlinesOne{
+    padding-left: 25px;
+    margin-bottom: 20px;
+    color: rgb(138, 95, 17);
+    border-bottom: 1px solid rgb(163, 98, 98);
+}
+
+.mobiles-random-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+    
+}
+
+/* --------- mobiles bottom button ------------*/
+
+.mobiles-comtainer-bottom{
+    width: 80%;
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobiles-comtainer-bottom-headline{
+    text-decoration: none;
+   
+    font-size: 25px;
+    color: #007185;
+    font-weight: 600;
+}
+

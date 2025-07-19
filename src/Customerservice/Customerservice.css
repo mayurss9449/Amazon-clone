@@ -1,0 +1,10 @@
+.Customerservice-head{
+    border-bottom: 1px solid rgb(231, 159, 159);
+}
+.Customerservice-headline{
+    margin-top: 35px;
+    margin-bottom: 20px;
+   
+    display: flex;
+    justify-content: center;
+}

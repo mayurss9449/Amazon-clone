@@ -1,0 +1,121 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+}
+
+.header-logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 0 0 20px;
+    margin-top: 18px;
+}
+
+.header-firstsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 7px 0 0 7px;
+    background-color: rgb(189, 177, 177);
+    color: black;
+    
+}
+
+.header-search{
+    display: flex;
+    
+    /* flex: 1; */
+    align-items: center;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+.header-searchInput{
+    height: 20px;
+    padding: 10px;
+    border: none;
+    width: 462px;
+}
+
+.header-lang{
+    margin: 15px;
+    padding: 0 0 0 5px;
+    justify-content: space-between;
+}
+.fa-angle-down{
+    padding-left: 7px;
+}
+
+.fa-magnifying-glass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    background-color: orange;
+    color: black;
+    border-radius: 0 7px 7px 0;
+}
+
+.header-nav{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    
+    
+}
+
+.header-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header-optionOne{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.header-optionTwo{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.header-first{
+    margin: 0 10px 0 10px;
+    text-align: left;
+}
+
+.header-optionBasket{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  align-items: center;
+  padding-left: 10px;
+  
+}
+
+.header-optionBasket-cart{
+    padding: 0 0 0 8px;
+}
+
+.header-optionCart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header-cunter{
+    color: orange;
+}
